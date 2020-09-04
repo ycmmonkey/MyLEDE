@@ -1,3 +1,6 @@
+## 20200905
+* 更新passwall
+
 ## 20200904
 * 添加 helloword
 * 支持 passwall
