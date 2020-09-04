@@ -11,14 +11,19 @@
 name: Build OpenWrt
 
 on:
+  push:
+    paths:
+      - 'CHANGELOG.md'
+
+# on:
 # repository_dispatch:
 # release:
 #   types: published
-  push:
+# push:
 #   branches:
 #     - main
-    paths:
-      - '.CHANGELOG.md'
+#   paths:
+#   - '.CHANGELOG.md'
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:
