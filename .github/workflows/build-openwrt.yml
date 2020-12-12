@@ -20,7 +20,7 @@ on:
       ssh:
         description: 'SSH connection to Actions'
         required: true
-        default: 'true'
+        default: 'false'
 #  schedule:
 #    - cron: 0 8 * * 5
 
