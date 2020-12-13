@@ -15,14 +15,7 @@ on:
   push:
     paths:
       - 'CHANGELOG.md'
-  workflow_dispatch:
-    inputs:
-      ssh:
-        description: 'SSH connection to Actions'
-        required: true
-        default: 'false'
-#  schedule:
-#    - cron: 0 8 * * 5
+
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
